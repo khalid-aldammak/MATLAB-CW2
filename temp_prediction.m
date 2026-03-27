@@ -3,7 +3,7 @@ function temp_prediction(a)
 % Monitors temperature continuously, estimates the rate of temperature
 % change, predicts the temperature expected in 5 minutes, and applies LED
 % logic for stable, fast-rising, or fast-falling conditions.
-a = arduino()
+
 % Sensor constants for MCP9700A
 V0 = 0.5;
 TC = 0.01;
